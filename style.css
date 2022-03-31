@@ -10,12 +10,26 @@ article {
     align-items: center;
     margin: 5%;
 }
+.article2 {
+    display:inline;
+    padding: 5%;
+}
 
 p {
     margin: 5%;
+   
+}
+.p1 {
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 h1 {
+    text-align: center;
+    margin-top: 5%; 
+}
+
+h2 {
     text-align: center;
     margin-top: 5%; 
 }
