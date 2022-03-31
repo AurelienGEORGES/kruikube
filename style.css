@@ -1,14 +1,13 @@
 * {
     margin: 0;
 }
-form {
+.formMess {
     display: flex;
     justify-content: center;
 }
 
 
 article {
-    
     display: flex;
     align-items: center;
     margin: 5%;
@@ -18,7 +17,7 @@ article {
     padding: 5%;
 }
 
-p {
+main p {
     margin: 5%;
    
 }
@@ -27,7 +26,7 @@ p {
     padding-left: 15%;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     margin-top: 5%; 
 }
@@ -39,6 +38,7 @@ h2 {
 
 figcaption {
     text-align: center;
+    font-style: italic;
 }
 
 footer {
@@ -49,3 +49,21 @@ footer {
     color: white;
 }
 
+.center {
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    border: solid black 3px;
+}
+
+footer p{
+    margin: 0;
+    padding-left: 8px;
+}
+
+.subtitle_picture{
+    font-style: italic;
+}
