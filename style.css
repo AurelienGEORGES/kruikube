@@ -19,6 +19,7 @@ h1, h2 {
 
 figcaption {
     text-align: center;
+    font-style: italic;
 }
 
 footer {
@@ -27,6 +28,16 @@ footer {
 
 .nav-link {
     color: white;
+}
+
+.center {
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    border: solid black 3px;
 }
 
 footer p{
